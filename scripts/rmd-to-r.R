@@ -1,16 +1,19 @@
-base_path <- paste(getwd(), "/data/example-data/", sep="")
+library(tidyverse)
 
-rmd_path <- paste(base_path, "producao-e-produtividade.Rmd", sep='')
-r_path <- paste(base_path, "producao-e-produtividade.R", sep='')
+rmds_camara = read.delim("data-extract/data/camara-rmd-files.txt", header = FALSE) %>%
+  unlist()
 
-knitr::purl(rmd_path, r_path, documentation = 0)
-
-
-
-paths_list = "path dos arquivos .Rmd para serem transformados em R.Rmd"
-
-for (path in paths_list) {
+for (path in rmds_camara) {
   r_file_path = substr(path, 1, nchar(path)-2)
-  knitr::purl(path, r_path, documentation = 0)
+  knitr::purl(path, r_file_path, documentation = 0)
+}
+
+
+rmds_tse = read.delim("data-extract/data/tse-rmd-files.txt", header = FALSE) %>%
+  unlist()
+
+for (path in rmds_tse) {
+  r_file_path = substr(path, 1, nchar(path)-2)
+  knitr::purl(path, r_file_path, documentation = 0)
 }
 

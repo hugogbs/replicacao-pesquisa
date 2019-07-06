@@ -98,9 +98,7 @@
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--app--visualizacao--datatable--ui.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--app--visualizacao--graficoQuantitativoDeputadosPartido--server.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--app--visualizacao--graficoQuantitativoDeputadosPartido--ui.R
-/home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--app--visualizacao--quantitativoDeputadosPorPartido--server.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--app--visualizacao--quantitativoDeputadosPorPartido--ui.R
-/home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/fabianoa--iad--doc--ProtocoloPesquisa.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/Gabiscampos--aplicativo_indicadores--app.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/Gabiscampos--aplicativo_indicadores--script_dadosbeta.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/Gabiscampos--aplicativo_indicadores--scripts--app.R
@@ -113,7 +111,6 @@
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--DEMO--example_cpf.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--DEMO--filiados_TSE.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--FUN.R
-/home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--README.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--script_clean.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--banco.tse_filiados--script_download.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/tse/GV-CEPESP--calculo_cadeiras--01_script_download.R

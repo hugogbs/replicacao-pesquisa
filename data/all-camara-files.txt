@@ -116,7 +116,6 @@
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--part1a4-modulo1-mooc-R-knight-center.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--part4e5-modulo2-mooc-R-knight-center.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--part7a9-modulo1-mooc-R-knight-center.R
-/home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--predicao-outros-puc-minas--Scrits com as funções usada nos Slides.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--prest-contas-17-9-2018.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--pucmg-r-5-julho-2018.R
 /home/hugo.silva/Documents/replicacao-pesquisa/data-extract/data/camara/gabrielacaesar--studyingR--salva-foto-deputado-federal.R

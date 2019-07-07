@@ -1,0 +1,155 @@
+---
+title: "Data Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidycode)
+library(tidyverse)
+library(wordcloud)
+```
+
+
+### Leitura dos dados
+```{r}
+files_camara <- read.delim("../data/all-camara-files.txt", header = FALSE)
+files_tse <- read.delim("../data/all-tse-files.txt", header = FALSE)
+
+files_camara_vec <- files_camara %>% unlist() %>% as.vector()
+files_tse_vec <- files_tse %>% unlist() %>% as.vector()
+```
+
+
+### Lendo os arquivos através da biblioteca tidycode
+```{r}
+camara_data = read_rfiles(files_camara_vec)
+tse_data <- read_rfiles(files_tse_vec)
+```
+
+
+### Removendo expressões que a biblioteca não foi capaz de ler
+```{r}
+tse_data_clean <- tse_data %>%
+  filter(!(row_number() %in% c(1529, 1536, 1544, 1545, 4893, 10224, 11149, 11151, 11154, 11165)))
+
+
+camara_data_clean <- camara_data %>%
+  filter(!(row_number() %in% c(136, 392, 469, 3800)))
+```
+
+
+### Gera dados _unnested_
+```{r}
+tse_unnested <- tse_data_clean %>% unnest_calls(expr)
+camara_unnested <- camara_data_clean %>% unnest_calls(expr)
+```
+
+### Classifica funções
+```{r}
+tse_classified <- tse_unnested  %>%
+  select(func, args) %>%
+  inner_join(get_classifications("crowdsource", include_duplicates=FALSE))
+
+camara_classified <- camara_unnested  %>%
+  select(func, args) %>%
+  inner_join(get_classifications("crowdsource", include_duplicates=FALSE))
+
+
+
+```
+
+### Remove as _stopfuncs_
+```{r}
+camara_classified_clean <- camara_classified %>% anti_join(get_stopfuncs())
+tse_classified_clean <- tse_classified %>% anti_join(get_stopfuncs())
+
+
+camara_classified_clean %>%
+  select(-args) %>% 
+  write_csv("../data/camara_classified_clean.csv")
+
+tse_classified_clean %>%
+  select(-args) %>% 
+  write_csv("../data/tse_classified_clean.csv")
+```
+
+
+```{r}
+camara_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n()) %>%
+  ggplot(aes(x= reorder(classification, n), y = n, fill=n)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  theme_bw()
+```
+
+
+```{r}
+tse_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n()) %>%
+  ggplot(aes(x= reorder(classification, n), y = n, fill=n)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  theme_bw()
+```
+
+
+```{r}
+tse_classified_clean %>%
+  count(classification, func) %>%
+  with(
+    wordcloud(func, n, min.freq = 10,
+              colors = brewer.pal(9, "Set1")[factor(.$classification)],
+              random.order = FALSE,
+              ordered.colors = TRUE)
+  )
+```
+
+
+
+```{r}
+camara_classified_clean %>%
+  count(classification, func) %>%
+  with(
+    wordcloud(func, n, min.freq = 10,
+              colors = brewer.pal(9, "Set1")[factor(.$classification)],
+              random.order = FALSE,
+              ordered.colors = TRUE)
+  )
+```
+
+```{r}
+camara_classified_clean %>%
+  group_by(classification, func) %>% 
+  tally()  %>%
+  top_n(5) %>%
+  ggplot(aes(reorder(func, n), n, fill = classification)) +
+  theme_bw() +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~classification, scales = "free_y") +
+  scale_x_discrete(element_blank()) +
+  scale_y_continuous("Top 5 funções de cada tipo") +
+  coord_flip()
+```
+
+```{r}
+tse_classified_clean %>%
+  group_by(classification, func) %>% 
+  tally()  %>%
+  top_n(5) %>%
+  ggplot(aes(reorder(func, n), n, fill = classification)) +
+  theme_bw() +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~classification, scales = "free_y") +
+  scale_x_discrete(element_blank()) +
+  scale_y_continuous("Top 5 funções de cada tipo") +
+  coord_flip()
+```
+
+
+
+

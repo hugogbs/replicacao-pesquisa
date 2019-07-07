@@ -1,0 +1,6370 @@
+func,classification
+function,setup
+paste0,setup
+gsub,data cleaning
+if,data cleaning
+return,data cleaning
+list,data cleaning
+tibble,data cleaning
+as_tibble,setup
+tibble,data cleaning
+as_tibble,setup
+tibble,data cleaning
+as_tibble,setup
+tibble,data cleaning
+as_tibble,setup
+filter,data cleaning
+%in%,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+if,data cleaning
+%in%,data cleaning
+names,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+merge,data cleaning
+select,data cleaning
+rename,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+if,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+names,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+merge,data cleaning
+select,data cleaning
+rename,data cleaning
+list,data cleaning
+function,setup
+paste0,setup
+gsub,data cleaning
+gsub,data cleaning
+tibble,data cleaning
+as_tibble,setup
+filter,data cleaning
+function,setup
+filter,data cleaning
+%in%,data cleaning
+unique,data cleaning
+if,data cleaning
+nrow,data cleaning
+if,data cleaning
+%in%,data cleaning
+names,setup
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+map,data cleaning
+filter,data cleaning
+if,data cleaning
+nrow,data cleaning
+mutate,data cleaning
+strsplit,data cleaning
+select,data cleaning
+mutate,data cleaning
+strsplit,data cleaning
+as.character,data cleaning
+mutate,data cleaning
+strsplit,data cleaning
+as.character,data cleaning
+unnest,data cleaning
+mutate,data cleaning
+paste,data cleaning
+select,data cleaning
+return,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+filter,data cleaning
+if,data cleaning
+nrow,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+map,data cleaning
+select,data cleaning
+unnest,data cleaning
+mutate,data cleaning
+strsplit,data cleaning
+mutate,data cleaning
+paste,data cleaning
+select,data cleaning
+return,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+names,setup
+arrange,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+if,data cleaning
+length,data cleaning
+if,data cleaning
+paste,data cleaning
+if,data cleaning
+%in%,data cleaning
+if,data cleaning
+paste,data cleaning
+function,setup
+if,data cleaning
+length,data cleaning
+if,data cleaning
+paste,data cleaning
+if,data cleaning
+%in%,data cleaning
+if,data cleaning
+paste,data cleaning
+function,setup
+list,data cleaning
+filter,data cleaning
+%in%,data cleaning
+unnest,data cleaning
+tibble,data cleaning
+unique,data cleaning
+function,setup
+paste0,setup
+tibble,data cleaning
+mutate,data cleaning
+file.path,setup
+file.path,setup
+function,setup
+options,setup
+function,setup
+dir.create,setup
+function,setup
+if,data cleaning
+return,data cleaning
+if,data cleaning
+function,setup
+if,data cleaning
+return,data cleaning
+if,data cleaning
+length,data cleaning
+readRDS,data cleaning
+for,data cleaning
+names,setup
+function,setup
+function,setup
+if,data cleaning
+get,data cleaning
+function,setup
+if,data cleaning
+print,evaluation
+print,evaluation
+return,data cleaning
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+function,setup
+as.list,modeling
+paste0,setup
+function,setup
+if,data cleaning
+is.na,data cleaning
+paste0,setup
+function,setup
+tolower,data cleaning
+if,data cleaning
+if,data cleaning
+print,evaluation
+return,data cleaning
+if,data cleaning
+print,evaluation
+return,data cleaning
+mutate,data cleaning
+as.integer,evaluation
+select,data cleaning
+function,setup
+paste0,setup
+if,data cleaning
+%in%,data cleaning
+names,setup
+unique,data cleaning
+nrow,data cleaning
+if,data cleaning
+data.frame,setup
+matrix,data cleaning
+length,data cleaning
+names,setup
+if,data cleaning
+mutate,data cleaning
+paste0,setup
+if,data cleaning
+%in%,data cleaning
+names,setup
+select,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+select,data cleaning
+unnest,data cleaning
+rename,data cleaning
+mutate,data cleaning
+paste0,setup
+if,data cleaning
+%in%,data cleaning
+names,setup
+mutate,data cleaning
+if,data cleaning
+%in%,data cleaning
+names,setup
+mutate,data cleaning
+mutate,data cleaning
+paste0,setup
+as.integer,evaluation
+as.character,data cleaning
+as.character,data cleaning
+select,data cleaning
+tibble,data cleaning
+as_tibble,setup
+function,setup
+paste0,setup
+if,data cleaning
+nrow,data cleaning
+return,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+integer,data cleaning
+names,setup
+names,setup
+mutate,data cleaning
+as.character,data cleaning
+function,setup
+mutate,data cleaning
+select,data cleaning
+function,setup
+as.data.frame,data cleaning
+unnest,data cleaning
+function,setup
+paste0,setup
+read_html,setup
+html_table,setup
+select,data cleaning
+rename,data cleaning
+mutate,data cleaning
+function,setup
+filter,data cleaning
+function,setup
+filter,data cleaning
+function,setup
+function,setup
+as.list,modeling
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+unlist,data cleaning
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+function,setup
+paste0,setup
+tibble,data cleaning
+tibble,data cleaning
+paste,data cleaning
+paste,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+names,setup
+ifelse,data cleaning
+%in%,data cleaning
+names,setup
+paste,data cleaning
+tibble,data cleaning
+if,data cleaning
+nrow,data cleaning
+tibble,data cleaning
+rename,data cleaning
+tibble,data cleaning
+if,data cleaning
+nrow,data cleaning
+tibble,data cleaning
+rename,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tail,setup
+paste,data cleaning
+paste,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+names,setup
+names,setup
+function,setup
+tolower,data cleaning
+if,data cleaning
+if,data cleaning
+return,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+if,data cleaning
+if,data cleaning
+nrow,data cleaning
+select,data cleaning
+mutate,data cleaning
+if,data cleaning
+if,data cleaning
+nrow,data cleaning
+mutate,data cleaning
+return,data cleaning
+function,setup
+unique,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+group_by,data cleaning
+ungroup,data cleaning
+select,data cleaning
+distinct,data cleaning
+function,setup
+if,data cleaning
+return,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+unlist,data cleaning
+strsplit,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+return,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+list,data cleaning
+paste0,setup
+unlist,data cleaning
+function,setup
+function,setup
+mutate,data cleaning
+as.numeric,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+left_join,data cleaning
+function,setup
+paste0,setup
+if,data cleaning
+is.na,data cleaning
+left_join,data cleaning
+select,data cleaning
+return,data cleaning
+function,setup
+paste0,setup
+mutate,data cleaning
+is.na,data cleaning
+str_split,data cleaning
+as.numeric,data cleaning
+is.na,data cleaning
+as.character,data cleaning
+ungroup,data cleaning
+select,data cleaning
+if,data cleaning
+%in%,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+select,data cleaning
+inner_join,data cleaning
+return,data cleaning
+function,setup
+paste0,setup
+read_html,setup
+paste0,setup
+length,data cleaning
+function,setup
+strsplit,data cleaning
+tail,setup
+function,setup
+paste0,setup
+function,setup
+data.frame,setup
+if,data cleaning
+tolower,data cleaning
+if,data cleaning
+tolower,data cleaning
+if,data cleaning
+head,exploratory
+return,data cleaning
+function,setup
+paste0,setup
+paste0,setup
+as.data.frame,data cleaning
+unnest,data cleaning
+sapply,data cleaning
+function,setup
+names,setup
+names,setup
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+filter,data cleaning
+distinct,data cleaning
+if,data cleaning
+nrow,data cleaning
+return,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+select,data cleaning
+select,data cleaning
+if,data cleaning
+return,data cleaning
+tibble,data cleaning
+group_by,data cleaning
+arrange,data cleaning
+summarise,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+ungroup,data cleaning
+select,data cleaning
+left_join,data cleaning
+select,data cleaning
+function,setup
+tibble,data cleaning
+mutate,data cleaning
+filter,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+select,data cleaning
+select,data cleaning
+function,setup
+if,data cleaning
+nrow,data cleaning
+return,data cleaning
+tibble,data cleaning
+as_tibble,setup
+mutate,data cleaning
+select,data cleaning
+select,data cleaning
+if,data cleaning
+return,data cleaning
+tibble,data cleaning
+group_by,data cleaning
+arrange,data cleaning
+summarise,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+ungroup,data cleaning
+select,data cleaning
+left_join,data cleaning
+select,data cleaning
+function,setup
+tibble,data cleaning
+mutate,data cleaning
+filter,data cleaning
+is.na,data cleaning
+select,data cleaning
+select,data cleaning
+function,setup
+filter,data cleaning
+%in%,data cleaning
+function,setup
+tibble,data cleaning
+function,setup
+paste0,setup
+if,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+fill,data cleaning
+tail,setup
+select,data cleaning
+lapply,data cleaning
+function,setup
+paste0,setup
+mutate,data cleaning
+select,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+if,data cleaning
+tolower,data cleaning
+if,data cleaning
+tolower,data cleaning
+print,evaluation
+return,data cleaning
+return,data cleaning
+function,setup
+paste0,setup
+unnest,data cleaning
+function,setup
+paste0,setup
+read_html,setup
+html_table,setup
+if,data cleaning
+length,data cleaning
+select,data cleaning
+names,setup
+mutate,data cleaning
+data.frame,setup
+return,data cleaning
+function,setup
+if,data cleaning
+tolower,data cleaning
+if,data cleaning
+tolower,data cleaning
+print,evaluation
+return,data cleaning
+function,setup
+unique,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+group_by,data cleaning
+ungroup,data cleaning
+select,data cleaning
+function,setup
+paste0,setup
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+sapply,data cleaning
+rename,data cleaning
+if,data cleaning
+function,setup
+function,setup
+return,data cleaning
+function,setup
+return,data cleaning
+function,setup
+return,data cleaning
+function,setup
+sprintf,setup
+function,setup
+function,setup
+function,setup
+if,data cleaning
+if,data cleaning
+if,data cleaning
+function,setup
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+return,data cleaning
+function,setup
+function,setup
+if,data cleaning
+function,setup
+if,data cleaning
+function,setup
+unlist,data cleaning
+as.list,modeling
+as.data.frame,data cleaning
+function,setup
+cat,data cleaning
+paste,data cleaning
+function,setup
+if,data cleaning
+nrow,data cleaning
+colnames,data cleaning
+names,setup
+unname,data cleaning
+%in%,data cleaning
+if,data cleaning
+%in%,data cleaning
+if,data cleaning
+length,data cleaning
+ifelse,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+if,data cleaning
+nrow,data cleaning
+if,data cleaning
+order,data cleaning
+colnames,data cleaning
+unname,data cleaning
+sort,data cleaning
+names,setup
+unname,data cleaning
+names,setup
+length,data cleaning
+length,data cleaning
+names,setup
+is.na,data cleaning
+lapply,data cleaning
+length,data cleaning
+function,setup
+unlist,data cleaning
+names,setup
+colnames,data cleaning
+as.data.frame,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+function,setup
+if,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+which,exploratory
+function,setup
+if,data cleaning
+if,data cleaning
+tibble,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+ungroup,data cleaning
+function,setup
+seq,setup
+if,data cleaning
+tibble,data cleaning
+max,data cleaning
+seq,setup
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+function,setup
+if,data cleaning
+function,setup
+filter,data cleaning
+select,data cleaning
+strsplit,data cleaning
+length,data cleaning
+strsplit,data cleaning
+str_detect,exploratory
+strsplit,data cleaning
+as.integer,evaluation
+function,setup
+names,setup
+names,setup
+function,setup
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+tolower,data cleaning
+function,setup
+names,setup
+names,setup
+function,setup
+names,setup
+names,setup
+function,setup
+names,setup
+names,setup
+function,setup
+paste0,setup
+rename,data cleaning
+mutate,data cleaning
+str_detect,exploratory
+tolower,data cleaning
+str_detect,exploratory
+tolower,data cleaning
+tail,setup
+mutate,data cleaning
+paste0,setup
+function,setup
+paste0,setup
+tibble,data cleaning
+as_tibble,setup
+unique,data cleaning
+unnest,data cleaning
+tibble,data cleaning
+sapply,data cleaning
+library,setup
+library,setup
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+nrow,data cleaning
+if,data cleaning
+test,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+length,data cleaning
+if,data cleaning
+test,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+if,data cleaning
+test,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+paste0,setup
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+nrow,data cleaning
+if,data cleaning
+test,data cleaning
+length,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+length,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+dim,data cleaning
+length,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+nrow,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+as.integer,evaluation
+as.integer,evaluation
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+if,data cleaning
+test,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+as.data.frame,data cleaning
+tibble,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+select,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+function,setup
+list,data cleaning
+html_node,setup
+html_node,setup
+if,data cleaning
+length,data cleaning
+which,exploratory
+grepl,data cleaning
+if,data cleaning
+length,data cleaning
+if,data cleaning
+length,data cleaning
+for,data cleaning
+tempfile,setup
+download.file,setup
+return,data cleaning
+function,setup
+if,data cleaning
+str_extract,data cleaning
+paste,data cleaning
+gsub,data cleaning
+unlist,data cleaning
+strsplit,data cleaning
+tibble,data cleaning
+str_extract,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+gsub,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+sub,data cleaning
+str_extract,data cleaning
+unlist,data cleaning
+gsub,data cleaning
+str_extract,data cleaning
+gsub,data cleaning
+unlist,data cleaning
+paste,data cleaning
+nrow,data cleaning
+unlist,data cleaning
+paste,data cleaning
+select,data cleaning
+filter,data cleaning
+is.na,data cleaning
+nrow,data cleaning
+print,evaluation
+paste,data cleaning
+return,data cleaning
+function,setup
+seq,setup
+tibble,data cleaning
+mutate,data cleaning
+select,data cleaning
+filter,data cleaning
+unlist,data cleaning
+left_join,data cleaning
+select,data cleaning
+return,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+select,data cleaning
+select,data cleaning
+select,data cleaning
+select,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+sprintf,setup
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+nest,data cleaning
+which,exploratory
+grepl,data cleaning
+names,setup
+rename,data cleaning
+nest,data cleaning
+which,exploratory
+grepl,data cleaning
+names,setup
+rename,data cleaning
+function,setup
+as.list,modeling
+paste0,setup
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+unlist,data cleaning
+function,setup
+as.list,modeling
+if,data cleaning
+length,data cleaning
+if,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+ungroup,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+ungroup,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+list,data cleaning
+paste0,setup
+unlist,data cleaning
+function,setup
+function,setup
+mutate,data cleaning
+as.numeric,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+left_join,data cleaning
+if,data cleaning
+function,setup
+function,setup
+function,setup
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+function,setup
+function,setup
+if,data cleaning
+function,setup
+unlist,data cleaning
+as.list,modeling
+as.data.frame,data cleaning
+function,setup
+if,data cleaning
+nrow,data cleaning
+colnames,data cleaning
+names,setup
+unname,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+if,data cleaning
+nrow,data cleaning
+order,data cleaning
+colnames,data cleaning
+unname,data cleaning
+sort,data cleaning
+names,setup
+lapply,data cleaning
+length,data cleaning
+function,setup
+unlist,data cleaning
+names,setup
+colnames,data cleaning
+as.data.frame,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+function,setup
+if,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+function,setup
+which,exploratory
+function,setup
+if,data cleaning
+if,data cleaning
+tibble,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+ungroup,data cleaning
+function,setup
+seq,setup
+if,data cleaning
+tibble,data cleaning
+max,data cleaning
+seq,setup
+tibble,data cleaning
+bind_rows,data cleaning
+tibble,data cleaning
+function,setup
+if,data cleaning
+function,setup
+filter,data cleaning
+select,data cleaning
+strsplit,data cleaning
+length,data cleaning
+strsplit,data cleaning
+str_detect,exploratory
+strsplit,data cleaning
+as.integer,evaluation
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+select,data cleaning
+which,exploratory
+grepl,data cleaning
+names,setup
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+group_by,data cleaning
+ungroup,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+tibble,data cleaning
+tibble,data cleaning
+paste0,setup
+ungroup,data cleaning
+group_by,data cleaning
+ungroup,data cleaning
+select,data cleaning
+function,setup
+group_by,data cleaning
+filter,data cleaning
+max,data cleaning
+unique,data cleaning
+ungroup,data cleaning
+select,data cleaning
+function,setup
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+function,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+paste0,setup
+group_by,data cleaning
+ungroup,data cleaning
+rename,data cleaning
+library,setup
+library,setup
+function,setup
+return,data cleaning
+function,setup
+function,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+dim,data cleaning
+if,data cleaning
+test,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+return,data cleaning
+function,setup
+length,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+length,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+dim,data cleaning
+length,data cleaning
+if,data cleaning
+test,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+message,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+if,data cleaning
+test,data cleaning
+function,setup
+return,data cleaning
+function,setup
+function,setup
+return,data cleaning
+function,setup
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+%in%,data cleaning
+sapply,data cleaning
+if,data cleaning
+test,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+select,data cleaning
+select,data cleaning
+select,data cleaning
+select,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+mutate,data cleaning
+mutate,data cleaning
+map,data cleaning
+unnest,data cleaning
+group_by,data cleaning
+count,data cleaning
+ggplot,exploratory
+aes,exploratory
+paste,data cleaning
+tibble,data cleaning
+unique,data cleaning
+mutate,data cleaning
+map,data cleaning
+filter,data cleaning
+is.na,data cleaning
+unnest,data cleaning
+left_join,data cleaning
+group_by,data cleaning
+count,data cleaning
+ggplot,exploratory
+aes,exploratory
+paste,data cleaning
+facet_wrap,exploratory
+mutate,data cleaning
+mutate,data cleaning
+map,data cleaning
+unnest,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+print,evaluation
+names,setup
+library,setup
+library,setup
+print,evaluation
+print,evaluation
+function,setup
+gsub,data cleaning
+str_trim,data cleaning
+for,data cleaning
+paste0,setup
+try,data cleaning
+if,data cleaning
+print,evaluation
+for,data cleaning
+length,data cleaning
+if,data cleaning
+length,data cleaning
+for,data cleaning
+length,data cleaning
+if,data cleaning
+length,data cleaning
+for,data cleaning
+length,data cleaning
+data.frame,setup
+rbind,setup
+print,evaluation
+paste0,setup
+print,evaluation
+paste0,setup
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+gsub,data cleaning
+str_trim,data cleaning
+print,evaluation
+print,evaluation
+for,data cleaning
+read.csv,setup
+paste0,setup
+names,setup
+nrow,data cleaning
+paste0,setup
+substr,data cleaning
+paste0,setup
+if,data cleaning
+paste0,setup
+try,data cleaning
+if,data cleaning
+data.frame,setup
+rbind,setup
+print,evaluation
+paste0,setup
+if,data cleaning
+grepl,data cleaning
+data.frame,setup
+rbind,setup
+write.table,evaluation
+data.frame,setup
+print,evaluation
+paste0,setup
+data.frame,setup
+rbind,setup
+if,data cleaning
+write.table,evaluation
+paste0,setup
+nrow,data cleaning
+print,evaluation
+print,evaluation
+write.table,evaluation
+paste0,setup
+for,data cleaning
+paste0,setup
+paste0,setup
+print,evaluation
+paste0,setup
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+paste0,setup
+names,setup
+for,data cleaning
+nrow,data cleaning
+print,evaluation
+paste,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+function,setup
+paste0,setup
+paste,data cleaning
+capture.output,data cleaning
+strsplit,data cleaning
+strsplit,data cleaning
+paste,data cleaning
+capture.output,data cleaning
+strsplit,data cleaning
+strsplit,data cleaning
+write.table,evaluation
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+function,setup
+function,setup
+function,setup
+function,setup
+str_split,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+list,data cleaning
+source,setup
+if,data cleaning
+require,setup
+install.packages,setup
+function,setup
+substr,data cleaning
+if,data cleaning
+nrow,data cleaning
+substr,data cleaning
+nrow,data cleaning
+ncol,modeling
+for,data cleaning
+nrow,data cleaning
+paste0,setup
+substr,data cleaning
+substr,data cleaning
+for,data cleaning
+nrow,data cleaning
+paste0,setup
+substr,data cleaning
+substr,data cleaning
+for,data cleaning
+print,evaluation
+paste,data cleaning
+paste0,setup
+colnames,data cleaning
+for,data cleaning
+nrow,data cleaning
+if,data cleaning
+is.na,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+gsub,data cleaning
+for,data cleaning
+nrow,data cleaning
+if,data cleaning
+is.na,data cleaning
+if,data cleaning
+substr,data cleaning
+print,evaluation
+paste,data cleaning
+write.table,evaluation
+print,evaluation
+paste,data cleaning
+if,data cleaning
+require,setup
+install.packages,setup
+function,setup
+if,data cleaning
+if,data cleaning
+if,data cleaning
+if,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+dim,data cleaning
+for,data cleaning
+if,data cleaning
+paste0,setup
+if,data cleaning
+paste0,setup
+paste0,setup
+if,data cleaning
+source,setup
+source,setup
+for,data cleaning
+print,evaluation
+paste,data cleaning
+paste0,setup
+paste0,setup
+for,data cleaning
+nrow,data cleaning
+if,data cleaning
+%in%,data cleaning
+if,data cleaning
+is.na,data cleaning
+print,evaluation
+paste,data cleaning
+source,setup
+source,setup
+library,setup
+for,data cleaning
+print,evaluation
+paste0,setup
+str_trim,data cleaning
+str_trim,data cleaning
+str_trim,data cleaning
+str_trim,data cleaning
+rbind,setup
+paste0,setup
+for,data cleaning
+print,evaluation
+paste0,setup
+paste0,setup
+rm,setup
+ls,setup
+source,setup
+library,setup
+library,setup
+function,setup
+for,data cleaning
+paste0,setup
+try,data cleaning
+if,data cleaning
+print,evaluation
+str_split,data cleaning
+as.character,data cleaning
+sapply,data cleaning
+function,setup
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+str_to_lower,data cleaning
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+sapply,data cleaning
+data.frame,setup
+write.table,evaluation
+print,evaluation
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+source,setup
+source,setup
+function,setup
+print,evaluation
+sprintf,setup
+names,setup
+if,data cleaning
+levels,modeling
+as.factor,data cleaning
+table,evaluation
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+print,evaluation
+print,evaluation
+paste0,setup
+%in%,data cleaning
+if,data cleaning
+nrow,data cleaning
+print,evaluation
+paste,data cleaning
+return,data cleaning
+print,evaluation
+paste,data cleaning
+list,data cleaning
+dim,data cleaning
+nrow,data cleaning
+vector,data cleaning
+for,data cleaning
+if,data cleaning
+paste0,setup
+readRDS,data cleaning
+paste0,setup
+paste0,setup
+if,data cleaning
+%in%,data cleaning
+if,data cleaning
+is.na,data cleaning
+if,data cleaning
+is.na,data cleaning
+rm,setup
+print,evaluation
+paste,data cleaning
+list,data cleaning
+return,data cleaning
+source,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+function,setup
+tolower,data cleaning
+return,data cleaning
+function,setup
+function,setup
+gsub,data cleaning
+return,data cleaning
+function,setup
+length,data cleaning
+if,data cleaning
+for,data cleaning
+gsub,data cleaning
+if,data cleaning
+length,data cleaning
+str_split,data cleaning
+list,data cleaning
+return,data cleaning
+function,setup
+print,evaluation
+paste0,setup
+paste0,setup
+if,data cleaning
+file.exists,setup
+paste0,setup
+readRDS,data cleaning
+paste0,setup
+return,data cleaning
+sapply,data cleaning
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+sapply,data cleaning
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+print,evaluation
+print,evaluation
+length,data cleaning
+vector,data cleaning
+for,data cleaning
+if,data cleaning
+length,data cleaning
+is.na,data cleaning
+print,evaluation
+print,evaluation
+list,data cleaning
+if,data cleaning
+rm,setup
+as.matrix,setup
+rowSums,modeling
+sort,data cleaning
+data.frame,setup
+names,setup
+print,evaluation
+data.frame,setup
+length,data cleaning
+unnest_tokens,setup
+count,data cleaning
+list,data cleaning
+paste0,setup
+paste0,setup
+return,data cleaning
+list,data cleaning
+source,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+paste0,setup
+readRDS,data cleaning
+paste0,setup
+print,evaluation
+sprintf,setup
+print,evaluation
+sprintf,setup
+brewer.pal,evaluation
+is.na,data cleaning
+is.na,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+xlab,exploratory
+theme,exploratory
+ylab,exploratory
+xlab,exploratory
+ggtitle,exploratory
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+xlab,exploratory
+theme,exploratory
+ylab,exploratory
+xlab,exploratory
+ggtitle,exploratory
+grid.arrange,exploratory
+plot,exploratory
+plot,exploratory
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+xlab,exploratory
+theme,exploratory
+ylab,exploratory
+xlab,exploratory
+ggtitle,exploratory
+plot,exploratory
+rm,setup
+ls,setup
+source,setup
+source,setup
+readRDS,data cleaning
+for,data cleaning
+for,data cleaning
+print,evaluation
+paste,data cleaning
+list,data cleaning
+rm,setup
+ls,setup
+source,setup
+for,data cleaning
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+write.table,evaluation
+list,data cleaning
+paste0,setup
+readRDS,data cleaning
+paste0,setup
+print,evaluation
+sprintf,setup
+print,evaluation
+sprintf,setup
+rm,setup
+ls,setup
+source,setup
+require,setup
+for,data cleaning
+for,data cleaning
+paste0,setup
+list,data cleaning
+print,evaluation
+paste,data cleaning
+list,data cleaning
+rm,setup
+ls,setup
+if,data cleaning
+require,setup
+install.packages,setup
+data.frame,setup
+for,data cleaning
+for,data cleaning
+readRDS,data cleaning
+paste0,setup
+readRDS,data cleaning
+paste0,setup
+as.character,data cleaning
+data.frame,setup
+as.matrix,setup
+%in%,data cleaning
+matrix,data cleaning
+max,data cleaning
+if,data cleaning
+sum,data cleaning
+list,data cleaning
+list,data cleaning
+gsub,data cleaning
+data.frame,setup
+list,data cleaning
+rbind,setup
+data.frame,setup
+paste0,setup
+list,data cleaning
+print,evaluation
+paste,data cleaning
+list,data cleaning
+list,data cleaning
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+source,setup
+function,setup
+print,evaluation
+sprintf,setup
+readRDS,data cleaning
+paste0,setup
+names,setup
+table,evaluation
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+%in%,data cleaning
+print,evaluation
+print,evaluation
+paste0,setup
+print,evaluation
+paste,data cleaning
+list,data cleaning
+dim,data cleaning
+is.na,data cleaning
+if,data cleaning
+require,setup
+install.packages,setup
+if,data cleaning
+require,setup
+install.packages,setup
+source,setup
+function,setup
+print,evaluation
+sprintf,setup
+readRDS,data cleaning
+paste0,setup
+names,setup
+if,data cleaning
+levels,modeling
+as.factor,data cleaning
+%in%,data cleaning
+paste0,setup
+paste0,setup
+levels,modeling
+as.factor,data cleaning
+for,data cleaning
+paste0,setup
+readRDS,data cleaning
+%in%,data cleaning
+rbind,setup
+merge,data cleaning
+rm,setup
+nrow,data cleaning
+for,data cleaning
+if,data cleaning
+is.na,data cleaning
+str_to_lower,data cleaning
+strptime,data cleaning
+is.na,data cleaning
+strptime,data cleaning
+paste0,setup
+order,data cleaning
+list,data cleaning
+function,setup
+names,setup
+as.integer,evaluation
+vector,data cleaning
+for,data cleaning
+sum,data cleaning
+function,setup
+plot,exploratory
+paste,data cleaning
+lines,modeling
+legend,evaluation
+par,evaluation
+hist,evaluation
+hist,evaluation
+legend,evaluation
+plot,exploratory
+lines,modeling
+legend,evaluation
+hist,evaluation
+hist,evaluation
+legend,evaluation
+plot,exploratory
+lines,modeling
+legend,evaluation
+par,evaluation
+paste0,setup
+par,evaluation
+paste0,setup
+par,evaluation
+function,setup
+dim,data cleaning
+rowSums,modeling
+sum,data cleaning
+matrix,data cleaning
+for,data cleaning
+for,data cleaning
+sum,data cleaning
+pchisq,modeling
+function,setup
+names,setup
+as.character,data cleaning
+levels,modeling
+as.factor,data cleaning
+%in%,data cleaning
+names,setup
+rm,setup
+length,data cleaning
+vector,data cleaning
+for,data cleaning
+matrix,data cleaning
+str_split,data cleaning
+names,setup
+function,setup
+names,setup
+names,setup
+%in%,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+order,data cleaning
+order,data cleaning
+data.frame,setup
+if,data cleaning
+print,evaluation
+sum,data cleaning
+sum,data cleaning
+length,data cleaning
+pchisq,modeling
+function,setup
+sapply,data cleaning
+data.frame,setup
+source,setup
+source,setup
+source,setup
+library,setup
+library,setup
+as.character,data cleaning
+readRDS,data cleaning
+%in%,data cleaning
+str_to_upper,data cleaning
+read.csv,setup
+as.character,data cleaning
+str_to_upper,data cleaning
+levels,modeling
+as.factor,data cleaning
+is.na,data cleaning
+for,data cleaning
+length,data cleaning
+str_split,data cleaning
+%in%,data cleaning
+levels,modeling
+as.factor,data cleaning
+vector,data cleaning
+length,data cleaning
+names,setup
+for,data cleaning
+levels,modeling
+as.factor,data cleaning
+%in%,data cleaning
+levels,modeling
+as.factor,data cleaning
+if,data cleaning
+for,data cleaning
+as.character,data cleaning
+for,data cleaning
+if,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+mutate,data cleaning
+write.csv,setup
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+names,setup
+vector,data cleaning
+length,data cleaning
+names,setup
+for,data cleaning
+vector,data cleaning
+length,data cleaning
+names,setup
+for,data cleaning
+paste0,setup
+if,data cleaning
+file.exists,setup
+readRDS,data cleaning
+if,data cleaning
+nrow,data cleaning
+%in%,data cleaning
+%in%,data cleaning
+length,data cleaning
+matrix,data cleaning
+rownames,data cleaning
+colnames,data cleaning
+for,data cleaning
+nrow,data cleaning
+for,data cleaning
+nrow,data cleaning
+for,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+round,modeling
+%in%,data cleaning
+names,setup
+%in%,data cleaning
+rownames,data cleaning
+colnames,data cleaning
+str_to_lower,data cleaning
+vector,data cleaning
+for,data cleaning
+if,data cleaning
+mean,exploratory
+vector,data cleaning
+for,data cleaning
+if,data cleaning
+mean,exploratory
+vector,data cleaning
+for,data cleaning
+if,data cleaning
+mean,exploratory
+mean,exploratory
+cbind,data cleaning
+rm,setup
+vector,data cleaning
+length,data cleaning
+vector,data cleaning
+length,data cleaning
+vector,data cleaning
+length,data cleaning
+for,data cleaning
+length,data cleaning
+mean,exploratory
+mean,exploratory
+mean,exploratory
+text,evaluation
+text,evaluation
+text,evaluation
+text,evaluation
+text,evaluation
+lines,modeling
+lines,modeling
+for,data cleaning
+lines,modeling
+text,evaluation
+paste0,setup
+text,evaluation
+lines,modeling
+lines,modeling
+lines,modeling
+seq,setup
+as.character,data cleaning
+seq,setup
+legend,evaluation
+text,evaluation
+text,evaluation
+text,evaluation
+text,evaluation
+lines,modeling
+lines,modeling
+length,data cleaning
+lines,modeling
+lines,modeling
+length,data cleaning
+length,data cleaning
+for,data cleaning
+lines,modeling
+if,data cleaning
+seq,setup
+as.character,data cleaning
+seq,setup
+legend,evaluation
+data.frame,setup
+matrix,data cleaning
+length,data cleaning
+names,setup
+for,data cleaning
+length,data cleaning
+for,data cleaning
+readRDS,data cleaning
+paste0,setup
+length,data cleaning
+vector,data cleaning
+for,data cleaning
+matrix,data cleaning
+length,data cleaning
+data.frame,setup
+cbind,data cleaning
+rep,data cleaning
+names,setup
+names,setup
+rbind,setup
+write.csv,setup
+paste0,setup
+read.csv,setup
+for,data cleaning
+data.frame,setup
+matrix,data cleaning
+names,setup
+for,data cleaning
+length,data cleaning
+paste0,setup
+if,data cleaning
+file.exists,setup
+readRDS,data cleaning
+length,data cleaning
+vector,data cleaning
+for,data cleaning
+data.frame,setup
+rep,data cleaning
+rbind,setup
+write.csv,setup
+paste0,setup
+library,setup
+library,setup
+setwd,setup
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+left_join,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+as.numeric,data cleaning
+left_join,data cleaning
+mutate,data cleaning
+arrange,data cleaning
+desc,data cleaning
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+select,data cleaning
+mutate,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+library,setup
+library,setup
+library,setup
+setwd,setup
+read_html,setup
+as.data.frame,data cleaning
+arrange,data cleaning
+write.csv,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+data.frame,setup
+lapply,data cleaning
+as_tibble,setup
+setwd,setup
+strsplit,data cleaning
+ldply,exploratory
+colnames,data cleaning
+cbind,data cleaning
+read.table,setup
+colnames,data cleaning
+strsplit,data cleaning
+ldply,exploratory
+colnames,data cleaning
+cbind,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+grep,exploratory
+grep,exploratory
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+order,data cleaning
+filter,data cleaning
+order,data cleaning
+filter,data cleaning
+order,data cleaning
+filter,data cleaning
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+data.frame,setup
+lapply,data cleaning
+as_tibble,setup
+setwd,setup
+strsplit,data cleaning
+ldply,exploratory
+colnames,data cleaning
+cbind,data cleaning
+strsplit,data cleaning
+ldply,exploratory
+colnames,data cleaning
+cbind,data cleaning
+summary,modeling
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+mutate,data cleaning
+write.csv,setup
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+mutate,data cleaning
+grep,exploratory
+grep,exploratory
+group_by,data cleaning
+summarise,data cleaning
+count,data cleaning
+order,data cleaning
+filter,data cleaning
+order,data cleaning
+filter,data cleaning
+order,data cleaning
+filter,data cleaning
+library,setup
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+data.frame,setup
+table,evaluation
+data.frame,setup
+table,evaluation
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+data.frame,setup
+table,evaluation
+data.frame,setup
+table,evaluation
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+data.frame,setup
+table,evaluation
+data.frame,setup
+table,evaluation
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+data.frame,setup
+table,evaluation
+data.frame,setup
+table,evaluation
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+names,setup
+head,exploratory
+length,data cleaning
+unique,data cleaning
+select,data cleaning
+head,exploratory
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+names,setup
+head,exploratory
+length,data cleaning
+unique,data cleaning
+select,data cleaning
+head,exploratory
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+names,setup
+head,exploratory
+length,data cleaning
+unique,data cleaning
+select,data cleaning
+head,exploratory
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+names,setup
+head,exploratory
+length,data cleaning
+unique,data cleaning
+select,data cleaning
+head,exploratory
+bind_rows,data cleaning
+bind_rows,data cleaning
+write.csv,setup
+library,setup
+library,setup
+setwd,setup
+head,exploratory
+summary,modeling
+summary,modeling
+unique,data cleaning
+length,data cleaning
+unique,data cleaning
+unique,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+sub,data cleaning
+head,exploratory
+order,data cleaning
+head,exploratory
+order,data cleaning
+head,exploratory
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+order,data cleaning
+head,exploratory
+unique,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+order,data cleaning
+head,exploratory
+summary,modeling
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+bind_rows,data cleaning
+merge,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+merge,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+plot,exploratory
+points,evaluation
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+grid.arrange,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+scale_y_continuous,exploratory
+seq,setup
+scale_color_discrete,exploratory
+ggtitle,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+scale_color_discrete,exploratory
+ggtitle,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+ggtitle,exploratory
+theme,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+as.numeric,data cleaning
+as.character,data cleaning
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+bind_rows,data cleaning
+filter,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+bind_rows,data cleaning
+filter,data cleaning
+filter,data cleaning
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+filter,data cleaning
+bind_rows,data cleaning
+count,data cleaning
+filter,data cleaning
+bind_rows,data cleaning
+count,data cleaning
+names,setup
+library,setup
+as.data.frame,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+bind_rows,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+bind_rows,data cleaning
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+bind_rows,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+group_by,data cleaning
+unique,data cleaning
+unique,data cleaning
+unique,data cleaning
+data,setup
+bind_rows,data cleaning
+filter,data cleaning
+filter,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+data,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+colnames,data cleaning
+as.character,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+merge,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+filter,data cleaning
+count,data cleaning
+cbind,data cleaning
+merge,data cleaning
+filter,data cleaning
+is.na,data cleaning
+select,data cleaning
+data.frame,setup
+colnames,data cleaning
+select,data cleaning
+colnames,data cleaning
+bind_rows,data cleaning
+order,data cleaning
+write.csv,setup
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+filter,data cleaning
+count,data cleaning
+library,setup
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+head,exploratory
+grep,exploratory
+for,data cleaning
+as.numeric,data cleaning
+sub,data cleaning
+sub,data cleaning
+sub,data cleaning
+grep,exploratory
+which,exploratory
+head,exploratory
+as.character,data cleaning
+colnames,data cleaning
+as.character,data cleaning
+colnames,data cleaning
+merge,data cleaning
+data.table,setup
+head,exploratory
+colnames,data cleaning
+cbind,data cleaning
+cbind,data cleaning
+cbind,data cleaning
+data.table,setup
+colnames,data cleaning
+order,data cleaning
+head,exploratory
+write.csv,setup
+as.data.frame,data cleaning
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+filter,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+filter,data cleaning
+filter,data cleaning
+install.packages,setup
+library,setup
+library,setup
+read_html,setup
+head,exploratory
+head,exploratory
+str,exploratory
+as.integer,evaluation
+head,exploratory
+head,exploratory
+head,exploratory
+head,exploratory
+head,exploratory
+head,exploratory
+data.frame,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+colnames,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+unit,setup
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+factor,modeling
+ifelse,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+mean,exploratory
+ungroup,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+scale_y_continuous,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+facet_grid,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+aes,exploratory
+ggtitle,exploratory
+facet_wrap,exploratory
+theme,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+setwd,setup
+colnames,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+factor,modeling
+ifelse,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+mean,exploratory
+ungroup,data cleaning
+mutate,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+scale_y_continuous,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+facet_grid,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+aes,exploratory
+ggtitle,exploratory
+facet_wrap,exploratory
+theme,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+colnames,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+factor,modeling
+ifelse,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+mean,exploratory
+ungroup,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+scale_y_continuous,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+facet_grid,exploratory
+labs,exploratory
+theme,exploratory
+unit,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+aes,exploratory
+ggtitle,exploratory
+facet_wrap,exploratory
+theme,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_bar,exploratory
+ggtitle,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+setwd,setup
+colnames,data cleaning
+as.character,data cleaning
+unique,data cleaning
+as.character,data cleaning
+unique,data cleaning
+count,data cleaning
+unique,data cleaning
+as.character,data cleaning
+unique,data cleaning
+read.csv,setup
+left_join,data cleaning
+as.character,data cleaning
+left_join,data cleaning
+select,data cleaning
+colnames,data cleaning
+select,data cleaning
+arrange,data cleaning
+write.csv,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+head,exploratory
+data.frame,setup
+mutate,data cleaning
+grep,exploratory
+for,data cleaning
+as.numeric,data cleaning
+sub,data cleaning
+sub,data cleaning
+sub,data cleaning
+grep,exploratory
+which,exploratory
+colnames,data cleaning
+as.character,data cleaning
+as.character,data cleaning
+mutate,data cleaning
+str_to_upper,data cleaning
+setwd,setup
+read.csv,setup
+filter,data cleaning
+left_join,data cleaning
+sum,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+select,data cleaning
+select,data cleaning
+write.csv,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+setwd,setup
+colnames,data cleaning
+as.character,data cleaning
+unique,data cleaning
+as.character,data cleaning
+unique,data cleaning
+count,data cleaning
+unique,data cleaning
+as.character,data cleaning
+unique,data cleaning
+read.csv,setup
+left_join,data cleaning
+as.character,data cleaning
+left_join,data cleaning
+select,data cleaning
+colnames,data cleaning
+select,data cleaning
+arrange,data cleaning
+write.csv,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+setwd,setup
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+bind_rows,data cleaning
+length,data cleaning
+mutate,data cleaning
+str_to_upper,data cleaning
+unique,data cleaning
+as.character,data cleaning
+unique,data cleaning
+setwd,setup
+read.csv,setup
+left_join,data cleaning
+select,data cleaning
+colnames,data cleaning
+select,data cleaning
+write.csv,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+str_detect,exploratory
+tibble,data cleaning
+mutate,data cleaning
+rename,data cleaning
+mutate,data cleaning
+str_to_upper,data cleaning
+as.character,data cleaning
+unique,data cleaning
+setwd,setup
+read.csv,setup
+left_join,data cleaning
+select,data cleaning
+colnames,data cleaning
+select,data cleaning
+write.csv,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+tibble,data cleaning
+str,exploratory
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+library,setup
+colnames,data cleaning
+colnames,data cleaning
+select,data cleaning
+select,data cleaning
+cbind,data cleaning
+select,data cleaning
+rm,setup
+rm,setup
+rm,setup
+rm,setup
+source,setup
+nrow,data cleaning
+unique,data cleaning
+length,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+%in%,data cleaning
+filter,data cleaning
+%in%,data cleaning
+select,data cleaning
+select,data cleaning
+select,data cleaning
+select,data cleaning
+arrange,data cleaning
+arrange,data cleaning
+arrange,data cleaning
+desc,data cleaning
+table,evaluation
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+colnames,data cleaning
+rename,data cleaning
+colnames,data cleaning
+select,data cleaning
+colnames,data cleaning
+summarize,data cleaning
+mean,exploratory
+summarize,data cleaning
+mean,exploratory
+mean,exploratory
+filter,data cleaning
+summarize,data cleaning
+mean,exploratory
+mean,exploratory
+summarize,data cleaning
+min,data cleaning
+max,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+min,data cleaning
+max,data cleaning
+print,evaluation
+print,evaluation
+getwd,setup
+setwd,setup
+install.packages,setup
+library,setup
+mean,exploratory
+summary,modeling
+summary,modeling
+plot,exploratory
+max,data cleaning
+max,data cleaning
+strptime,data cleaning
+install.packages,setup
+library,setup
+ymd_hms,evaluation
+data.frame,setup
+factor,modeling
+factor,modeling
+as.character,data cleaning
+str,exploratory
+levels,modeling
+summary,modeling
+as.character,data cleaning
+as.character,data cleaning
+str,exploratory
+factor,modeling
+as.numeric,data cleaning
+as.numeric,data cleaning
+as.character,data cleaning
+function,setup
+return,data cleaning
+seq,setup
+sum,data cleaning
+matrix,data cleaning
+mean,exploratory
+data.frame,setup
+mean,exploratory
+mean,exploratory
+matrix,data cleaning
+list,data cleaning
+names,setup
+data.frame,setup
+as.character,data cleaning
+length,data cleaning
+dim,data cleaning
+ncol,modeling
+str,exploratory
+summary,modeling
+rm,setup
+source,setup
+filter,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+arrange,data cleaning
+desc,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+arrange,data cleaning
+desc,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+sum,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+sum,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+sum,data cleaning
+filter,data cleaning
+arrange,data cleaning
+desc,data cleaning
+group_by,data cleaning
+summarize,data cleaning
+sum,data cleaning
+group_by,data cleaning
+count,data cleaning
+install.packages,setup
+library,setup
+group_by,data cleaning
+filter,data cleaning
+summarize,data cleaning
+group_by,data cleaning
+filter,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+sum,data cleaning
+group_by,data cleaning
+filter,data cleaning
+summarize,data cleaning
+filter,data cleaning
+mutate,data cleaning
+sum,data cleaning
+filter,data cleaning
+select,data cleaning
+group_by,data cleaning
+filter,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+sum,data cleaning
+group_by,data cleaning
+filter,data cleaning
+summarize,data cleaning
+mutate,data cleaning
+sum,data cleaning
+filter,data cleaning
+select,data cleaning
+arrange,data cleaning
+desc,data cleaning
+install.packages,setup
+library,setup
+select,data cleaning
+spread,data cleaning
+select,data cleaning
+spread,data cleaning
+install.packages,setup
+library,setup
+read_csv,data cleaning
+read.csv,setup
+str,exploratory
+str,exploratory
+setwd,setup
+read_csv,data cleaning
+write_csv,data cleaning
+write_csv,data cleaning
+install.packages,setup
+library,setup
+colnames,data cleaning
+make.names,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+library,setup
+rename,data cleaning
+colnames,data cleaning
+rename,data cleaning
+rename,data cleaning
+colnames,data cleaning
+subset,data cleaning
+is.na,data cleaning
+filter,data cleaning
+is.na,data cleaning
+read.table,setup
+read.table,setup
+library,setup
+read_tsv,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+bind_rows,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+as.numeric,data cleaning
+bind_rows,data cleaning
+install.packages,setup
+library,setup
+table,evaluation
+round,modeling
+sum,data cleaning
+sum,data cleaning
+names,setup
+length,data cleaning
+cbind,data cleaning
+table,evaluation
+round,modeling
+sum,data cleaning
+sum,data cleaning
+names,setup
+length,data cleaning
+cbind,data cleaning
+table,evaluation
+round,modeling
+sum,data cleaning
+sum,data cleaning
+names,setup
+length,data cleaning
+cbind,data cleaning
+paste,data cleaning
+legend,evaluation
+names,setup
+barplot,exploratory
+barplot,exploratory
+table,evaluation
+barplot,exploratory
+legend,evaluation
+rownames,data cleaning
+hist,evaluation
+plot,exploratory
+lines,modeling
+lines,modeling
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+filter,data cleaning
+mutate,data cleaning
+str_to_lower,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+arrange,data cleaning
+setwd,setup
+dir.create,setup
+setwd,setup
+download.file,setup
+function,setup
+return,data cleaning
+list.files,setup
+for,data cleaning
+gsub,data cleaning
+match,data cleaning
+paste0,setup
+cat,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+do.call,setup
+colnames,data cleaning
+filter,data cleaning
+data.frame,setup
+setwd,setup
+dir.create,setup
+setwd,setup
+data.frame,setup
+colnames,data cleaning
+as.character,data cleaning
+read_html,setup
+map,data cleaning
+as.list,modeling
+filter,data cleaning
+as.data.frame,data cleaning
+download.file,setup
+function,setup
+return,data cleaning
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+tolower,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+gsub,data cleaning
+as.data.frame,data cleaning
+gsub,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+setwd,setup
+function,setup
+paste0,setup
+paste0,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+head,exploratory
+as.data.frame,data cleaning
+colnames,data cleaning
+as.character,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+cbind,data cleaning
+setwd,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+cbind,data cleaning
+merge,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+colnames,data cleaning
+filter,data cleaning
+count,data cleaning
+filter,data cleaning
+is.na,data cleaning
+select,data cleaning
+data.frame,setup
+colnames,data cleaning
+cbind,data cleaning
+select,data cleaning
+data.frame,setup
+colnames,data cleaning
+bind_rows,data cleaning
+order,data cleaning
+write.csv,setup
+as.data.frame,data cleaning
+library,setup
+library,setup
+library,setup
+colnames,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+nrow,data cleaning
+gsub,data cleaning
+head,exploratory
+as.numeric,data cleaning
+sum,data cleaning
+tolower,data cleaning
+head,exploratory
+head,exploratory
+as.data.frame,data cleaning
+head,exploratory
+cbind,data cleaning
+head,exploratory
+library,setup
+bind_rows,data cleaning
+unique,data cleaning
+library,setup
+head,exploratory
+head,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+install.packages,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+as.numeric,data cleaning
+as.character,data cleaning
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+getwd,setup
+setwd,setup
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+as.numeric,data cleaning
+as.character,data cleaning
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+rev,evaluation
+levels,modeling
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+scale_x_continuous,exploratory
+function,setup
+format,exploratory
+scale_y_continuous,exploratory
+function,setup
+format,exploratory
+theme,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+merge,data cleaning
+as.data.frame,data cleaning
+library,setup
+library,setup
+setwd,setup
+head,exploratory
+filter,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+filter,data cleaning
+filter,data cleaning
+merge,data cleaning
+write.csv,setup
+install.packages,setup
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+head,exploratory
+as.data.frame,data cleaning
+colnames,data cleaning
+grep,exploratory
+for,data cleaning
+as.numeric,data cleaning
+sub,data cleaning
+sub,data cleaning
+sub,data cleaning
+grep,exploratory
+which,exploratory
+as.character,data cleaning
+colnames,data cleaning
+as.character,data cleaning
+colnames,data cleaning
+merge,data cleaning
+data.table,setup
+colnames,data cleaning
+cbind,data cleaning
+cbind,data cleaning
+cbind,data cleaning
+data.table,setup
+colnames,data cleaning
+order,data cleaning
+write.csv,setup
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+as.character,data cleaning
+as.character,data cleaning
+as.character,data cleaning
+order,data cleaning
+merge,data cleaning
+data.table,setup
+cbind,data cleaning
+cbind,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+data.table,setup
+colnames,data cleaning
+write.csv,setup
+as.data.frame,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+summary,modeling
+head,exploratory
+unique,data cleaning
+length,data cleaning
+which,exploratory
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+ggtitle,exploratory
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+ggtitle,exploratory
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+sum,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+sum,data cleaning
+merge,data cleaning
+colnames,data cleaning
+order,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+ggtitle,exploratory
+library,setup
+library,setup
+plot,exploratory
+library,setup
+plot,exploratory
+library,setup
+plot,exploratory
+plot,exploratory
+abline,evaluation
+par,evaluation
+rep,data cleaning
+with,evaluation
+dim,data cleaning
+dim,data cleaning
+plot,exploratory
+abline,evaluation
+abline,evaluation
+with,evaluation
+dim,data cleaning
+dim,data cleaning
+tibble,data cleaning
+as_tibble,setup
+tibble,data cleaning
+mutate,data cleaning
+sprintf,setup
+spread,data cleaning
+mutate,data cleaning
+select,data cleaning
+rbind,setup
+plot,exploratory
+round,modeling
+sum,data cleaning
+function,setup
+floor,data cleaning
+dim,data cleaning
+matrix,data cleaning
+nrow,data cleaning
+ncol,modeling
+nrow,data cleaning
+ncol,modeling
+for,data cleaning
+nrow,data cleaning
+for,data cleaning
+ncol,modeling
+sum,data cleaning
+plot,exploratory
+rbind,setup
+plot,exploratory
+function,setup
+par,evaluation
+rep,data cleaning
+plot,exploratory
+par,evaluation
+rep,data cleaning
+plot,exploratory
+par,evaluation
+rep,data cleaning
+plot,exploratory
+function,setup
+abs,data cleaning
+par,evaluation
+rep,data cleaning
+plot,exploratory
+map,data cleaning
+dim,data cleaning
+round,modeling
+map,data cleaning
+par,evaluation
+function,setup
+matrix,data cleaning
+floor,data cleaning
+nrow,data cleaning
+floor,data cleaning
+ncol,modeling
+cbind,data cleaning
+rbind,setup
+for,data cleaning
+nrow,data cleaning
+for,data cleaning
+ncol,modeling
+max,data cleaning
+dim,data cleaning
+par,evaluation
+rep,data cleaning
+par,evaluation
+plot,exploratory
+dim,data cleaning
+map,data cleaning
+dim,data cleaning
+map,data cleaning
+par,evaluation
+rep,data cleaning
+par,evaluation
+plot,exploratory
+dim,data cleaning
+map,data cleaning
+dim,data cleaning
+map,data cleaning
+par,evaluation
+plot,exploratory
+nrow,data cleaning
+ncol,modeling
+tibble,data cleaning
+as_tibble,setup
+group_by,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+as.character,data cleaning
+round,modeling
+spread,data cleaning
+plot,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+as.data.frame,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+bind_rows,data cleaning
+as.data.frame,data cleaning
+select,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+colnames,data cleaning
+read_html,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+read_html,setup
+html_table,setup
+library,setup
+read_html,setup
+html_table,setup
+mutate,data cleaning
+ifelse,data cleaning
+spread,data cleaning
+tibble,data cleaning
+as_tibble,setup
+function,setup
+paste0,setup
+sprintf,setup
+if,data cleaning
+file.exists,setup
+read_html,setup
+is.na,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+tibble,data cleaning
+tibble,data cleaning
+list,data cleaning
+message,setup
+bind_rows,data cleaning
+function,setup
+read_html,setup
+list,data cleaning
+library,setup
+options,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+text,evaluation
+read_html,setup
+library,setup
+list,data cleaning
+library,setup
+list,data cleaning
+read_html,setup
+read_html,setup
+read_html,setup
+read_html,setup
+tibble,data cleaning
+tibble,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+library,setup
+html_table,setup
+paste0,setup
+png,data cleaning
+tibble,data cleaning
+list,data cleaning
+length,data cleaning
+list,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+paste0,setup
+read_html,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_html,setup
+html_table,setup
+tibble,data cleaning
+summary,modeling
+sum,data cleaning
+sum,data cleaning
+sum,data cleaning
+sum,data cleaning
+rm,setup
+as.integer,evaluation
+install.packages,setup
+library,setup
+setwd,setup
+getwd,setup
+library,setup
+install.packages,setup
+library,setup
+mutate,data cleaning
+mutate,data cleaning
+round,modeling
+round,modeling
+mutate,data cleaning
+round,modeling
+as.numeric,data cleaning
+as.character,data cleaning
+mutate,data cleaning
+as.character,data cleaning
+mutate,data cleaning
+as.numeric,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+round,modeling
+mutate,data cleaning
+mutate,data cleaning
+mutate,data cleaning
+round,modeling
+rename,data cleaning
+unique,data cleaning
+filter,data cleaning
+filter,data cleaning
+unique,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+filter,data cleaning
+arrange,data cleaning
+desc,data cleaning
+select,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+desc,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+desc,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+desc,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+arrange,data cleaning
+desc,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+desc,data cleaning
+getwd,setup
+setwd,setup
+library,setup
+left_join,data cleaning
+rename,data cleaning
+left_join,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+left_join,data cleaning
+select,data cleaning
+arrange,data cleaning
+desc,data cleaning
+install.packages,setup
+library,setup
+as.data.frame,data cleaning
+filter,data cleaning
+library,setup
+library,setup
+setwd,setup
+getwd,setup
+unique,data cleaning
+unique,data cleaning
+filter,data cleaning
+mutate,data cleaning
+tolower,data cleaning
+gsub,data cleaning
+left_join,data cleaning
+mutate,data cleaning
+is.na,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+round,modeling
+sum,data cleaning
+sum,data cleaning
+getwd,setup
+setwd,setup
+library,setup
+as.data.frame,data cleaning
+library,setup
+install.packages,setup
+library,setup
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+round,modeling
+sum,data cleaning
+sum,data cleaning
+select,data cleaning
+spread,data cleaning
+rename,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+summarise,data cleaning
+mean,exploratory
+list,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+group_by,data cleaning
+summarise,data cleaning
+unique,data cleaning
+length,data cleaning
+arrange,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+mutate,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+arrange,data cleaning
+summarise,data cleaning
+paste0,setup
+paste0,setup
+arrange,data cleaning
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+list,data cleaning
+list,data cleaning
+list,data cleaning
+mutate,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+%in%,data cleaning
+sum,data cleaning
+%in%,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+paste0,setup
+paste0,setup
+select,data cleaning
+arrange,data cleaning
+list,data cleaning
+format,exploratory
+today,setup
+paste0,setup
+list,data cleaning
+list,data cleaning
+list,data cleaning
+function,setup
+as.list,modeling
+list,data cleaning
+function,setup
+paste0,setup
+function,setup
+paste0,setup
+function,setup
+paste0,setup
+function,setup
+paste0,setup
+function,setup
+paste0,setup
+function,setup
+as.list,modeling
+list,data cleaning
+function,setup
+function,setup
+function,setup
+as.list,modeling
+list,data cleaning
+function,setup
+paste0,setup
+function,setup
+map,data cleaning
+bind_rows,data cleaning
+function,setup
+function,setup
+length,data cleaning
+select,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+map,data cleaning
+select,data cleaning
+mutate,data cleaning
+map,data cleaning
+unnest,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+unnest,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+map,data cleaning
+select,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+map,data cleaning
+mutate,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+list,data cleaning
+function,setup
+list,data cleaning
+function,setup
+as.list,modeling
+list,data cleaning
+paste0,setup
+function,setup
+if,data cleaning
+unlist,data cleaning
+as.list,modeling
+as.data.frame,data cleaning
+function,setup
+if,data cleaning
+as.numeric,data cleaning
+vector,data cleaning
+for,data cleaning
+bind_rows,data cleaning
+return,data cleaning
+library,setup
+head,exploratory
+head,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+read_csv,data cleaning
+head,exploratory
+tail,setup
+str,exploratory
+summary,modeling
+dim,data cleaning
+rep,data cleaning
+seq,setup
+data.frame,setup
+data,setup
+summary,modeling
+is.na,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+list.files,setup
+for,data cleaning
+print,evaluation
+paste,data cleaning
+for,data cleaning
+if,data cleaning
+print,evaluation
+list.files,setup
+length,data cleaning
+length,data cleaning
+list.files,setup
+if,data cleaning
+length,data cleaning
+print,evaluation
+print,evaluation
+print,evaluation
+print,evaluation
+print,evaluation
+function,setup
+for,data cleaning
+if,data cleaning
+paste0,setup
+tolower,data cleaning
+substr,data cleaning
+paste0,setup
+substr,data cleaning
+return,data cleaning
+head,exploratory
+tail,setup
+unique,data cleaning
+head,exploratory
+library,setup
+select,data cleaning
+head,exploratory
+select,data cleaning
+head,exploratory
+select,data cleaning
+filter,data cleaning
+distinct,data cleaning
+head,exploratory
+select,data cleaning
+filter,data cleaning
+distinct,data cleaning
+head,exploratory
+library,setup
+data,setup
+str,exploratory
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+mean,exploratory
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+mean,exploratory
+arrange,data cleaning
+is.na,data cleaning
+summary,modeling
+na.omit,data cleaning
+head,exploratory
+select,data cleaning
+filter,data cleaning
+distinct,data cleaning
+head,exploratory
+select,data cleaning
+filter,data cleaning
+distinct,data cleaning
+head,exploratory
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+sum,data cleaning
+arrange,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+library,setup
+install.packages,setup
+library,setup
+data,setup
+str,exploratory
+head,exploratory
+row.names,data cleaning
+head,exploratory
+head,exploratory
+spread,data cleaning
+spread,data cleaning
+install.packages,setup
+library,setup
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+spread,data cleaning
+data.frame,setup
+data.frame,setup
+data.frame,setup
+rbind,setup
+str,exploratory
+str,exploratory
+inner_join,data cleaning
+str,exploratory
+inner_join,data cleaning
+setwd,setup
+read.csv,setup
+read.csv,setup
+str,exploratory
+str,exploratory
+inner_join,data cleaning
+left_join,data cleaning
+select,data cleaning
+select,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+inner_join,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+inner_join,data cleaning
+mutate,data cleaning
+select,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+table,evaluation
+data.frame,setup
+data.frame,setup
+data.frame,setup
+rbind,setup
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+select,data cleaning
+arrange,data cleaning
+data.frame,setup
+rm,setup
+load,setup
+str,exploratory
+write.csv,setup
+library,setup
+write.csv,setup
+rm,setup
+load,setup
+str,exploratory
+library,setup
+library,setup
+dim,data cleaning
+head,exploratory
+head,exploratory
+select,data cleaning
+library,setup
+read_html,setup
+html_node,setup
+html_table,setup
+select,data cleaning
+read_html,setup
+html_node,setup
+html_table,setup
+read_html,setup
+html_node,setup
+html_table,setup
+library,setup
+data,setup
+ggplot,exploratory
+geom_point,exploratory
+aes,exploratory
+factor,modeling
+scale_color_manual,exploratory
+labs,exploratory
+ggplot,exploratory
+geom_point,exploratory
+aes,exploratory
+factor,modeling
+scale_color_manual,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+mutate,data cleaning
+row.names,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+geom_smooth,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_color_manual,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_color_manual,exploratory
+scale_x_continuous,exploratory
+scale_y_continuous,exploratory
+library,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_x_continuous,exploratory
+seq,setup
+scale_y_continuous,exploratory
+function,setup
+paste0,setup
+ggplot,exploratory
+aes,exploratory
+geom_boxplot,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_boxplot,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+scale_x_date,exploratory
+help,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+scale_x_date,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+scale_x_date,exploratory
+library,setup
+brewer.pal,evaluation
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+rev,evaluation
+scale_x_continuous,exploratory
+library,setup
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+scale_x_continuous,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_color_manual,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+facet_wrap,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+facet_wrap,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+facet_wrap,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+facet_grid,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+facet_wrap,exploratory
+library,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+theme_bw,exploratory
+labs,exploratory
+labs,exploratory
+labs,exploratory
+labs,exploratory
+labs,exploratory
+labs,exploratory
+labs,exploratory
+library,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+aes,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+library,setup
+ggplot,exploratory
+aes,exploratory
+theme,exploratory
+library,setup
+library,setup
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_color_discrete,exploratory
+labs,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_color_discrete,exploratory
+labs,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+scale_size_continuous,exploratory
+function,setup
+round,modeling
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+max,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+factor,modeling
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+factor,modeling
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+factor,modeling
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+factor,modeling
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+labs,exploratory
+group_by,data cleaning
+summarise,data cleaning
+mean,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_line,exploratory
+geom_point,exploratory
+aes,exploratory
+labs,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+aes,exploratory
+sum,data cleaning
+labs,exploratory
+scale_y_continuous,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+geom_boxplot,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+geom_point,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+geom_jitter,exploratory
+labs,exploratory
+filter,data cleaning
+min,data cleaning
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+geom_boxplot,exploratory
+labs,exploratory
+ggplot,exploratory
+aes,exploratory
+factor,modeling
+geom_boxplot,exploratory
+labs,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_point,exploratory
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+%in%,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_point,exploratory
+aes,exploratory
+factor,modeling
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+%in%,data cleaning
+unique,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_point,exploratory
+aes,exploratory
+factor,modeling
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+%in%,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_line,exploratory
+aes,exploratory
+geom_point,exploratory
+aes,exploratory
+factor,modeling
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+aes,exploratory
+geom_point,exploratory
+aes,exploratory
+round,modeling
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_point,exploratory
+aes,exploratory
+round,modeling
+labs,exploratory
+theme,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+reorder,data cleaning
+geom_point,exploratory
+aes,exploratory
+round,modeling
+labs,exploratory
+theme,exploratory
+function,setup
+data.frame,setup
+seq,setup
+ggplot,exploratory
+aes,exploratory
+list,data cleaning
+list,data cleaning
+function,setup
+exp,evaluation
+data.frame,setup
+ggplot,exploratory
+aes,exploratory
+function,setup
+log,data cleaning
+data.frame,setup
+ggplot,exploratory
+aes,exploratory
+list,data cleaning
+aes,exploratory
+list,data cleaning
+aes,exploratory
+list,data cleaning
+aes,exploratory
+library,setup
+head,exploratory
+filter,data cleaning
+rm,setup
+left_join,data cleaning
+mutate,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_polygon,exploratory
+aes,exploratory
+levels,modeling
+labs,exploratory
+theme,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+data,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+aes,exploratory
+row.names,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+aes,exploratory
+row.names,data cleaning
+library,setup
+library,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+library,setup
+library,setup
+filter,data cleaning
+select,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+labs,exploratory
+aes,exploratory
+rownames,data cleaning
+theme,exploratory
+library,setup
+head,exploratory
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+geom_point,exploratory
+theme,exploratory
+select,data cleaning
+ggplot,exploratory
+aes,exploratory
+library,setup
+library,setup
+filter,data cleaning
+is.na,data cleaning
+is.na,data cleaning
+filter,data cleaning
+library,setup
+library,setup
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+plot,exploratory
+library,setup
+data.frame,setup
+head,exploratory
+library,setup
+cbind,data cleaning
+cbind,data cleaning
+install.packages,setup
+library,setup
+library,setup
+library,setup
+library,setup
+filter,data cleaning
+ggplot,exploratory
+aes,exploratory
+geom_point,exploratory
+head,exploratory
+library,setup
+select,data cleaning
+plot,exploratory
+lm,modeling
+data,setup
+lm,modeling
+lm,modeling
+lm,modeling
+lm,modeling
+lm,modeling
+lm,modeling
+lm,modeling
+log,data cleaning
+log,data cleaning
+lm,modeling
+lm,modeling
+I,modeling
+library,setup
+mutate,data cleaning
+sample,data cleaning
+nrow,data cleaning
+lm,modeling
+lm,modeling
+lm,modeling
+log,data cleaning
+log,data cleaning
+lm,modeling
+lm,modeling
+lm,modeling
+summary,modeling
+lm,modeling
+lm,modeling
+ls,setup
+set.seed,exploratory
+sample,data cleaning
+nrow,data cleaning
+ncol,modeling
+lm,modeling
+lm,modeling
+predict,modeling
+predict,modeling
+library,setup
+library,setup
+data,setup
+head,exploratory
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+glm,modeling
+summary,modeling
+predict,modeling
+ifelse,data cleaning
+factor,modeling
+glm,modeling
+summary,modeling
+predict,modeling
+ifelse,data cleaning
+factor,modeling
+library,setup
+data,setup
+filter,data cleaning
+filter,data cleaning
+lm,modeling
+predict,modeling
+library,setup
+library,setup
+library,setup
+sample,data cleaning
+nrow,data cleaning
+nrow,data cleaning
+lm,modeling
+predict,modeling
+library,setup
+library,setup
+data,setup
+head,exploratory
+summary,modeling
+mutate,data cleaning
+factor,modeling
+levels,modeling
+mutate,data cleaning
+str_extract,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+arrange,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+median,exploratory
+summary,modeling
+head,exploratory
+unique,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+library,setup
+ggplot,exploratory
+aes,exploratory
+ggplot,exploratory
+aes,exploratory
+facet_wrap,exploratory
+ggplot,exploratory
+aes,exploratory
+geom_bar,exploratory
+labs,exploratory
+group_by,data cleaning
+summarise,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sum,data cleaning
+ggplot,exploratory
+aes,exploratory
+labs,exploratory
+library,setup
+library,setup
+library,setup
+library,setup
+setwd,setup
+function,setup
+function,setup
+sapply,data cleaning
+as.data.frame,data cleaning
+t,data cleaning
+function,setup
+print,evaluation
+paste,data cleaning
+paste0,setup
+as.data.frame,data cleaning
+t,data cleaning
+cbind,data cleaning
+if,data cleaning
+ncol,modeling
+merge,data cleaning
+merge,data cleaning
+rbind,setup
+select,data cleaning
+select,data cleaning
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+paste0,setup
+mutate,data cleaning
+paste0,setup
+select,data cleaning
+inner_join,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+set.seed,exploratory
+setwd,setup
+mutate,data cleaning
+ifelse,data cleaning
+group_by,data cleaning
+distinct,data cleaning
+arrange,data cleaning
+mutate,data cleaning
+length,data cleaning
+unique,data cleaning
+ifelse,data cleaning
+str_detect,exploratory
+ifelse,data cleaning
+str_detect,exploratory
+ifelse,data cleaning
+is.na,data cleaning
+ifelse,data cleaning
+ungroup,data cleaning
+filter,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+select,data cleaning
+distinct,data cleaning
+names,setup
+names,setup
+paste0,setup
+length,data cleaning
+as.data.frame,data cleaning
+str,exploratory
+select,data cleaning
+distinct,data cleaning
+names,setup
+names,setup
+paste0,setup
+length,data cleaning
+as.data.frame,data cleaning
+select,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+length,data cleaning
+length,data cleaning
+unique,data cleaning
+select,data cleaning
+group_by,data cleaning
+left_join,data cleaning
+left_join,data cleaning
+distinct,data cleaning
+arrange,data cleaning
+ungroup,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+is.na,data cleaning
+ifelse,data cleaning
+mutate,data cleaning
+as.factor,data cleaning
+filter,data cleaning
+select,data cleaning
+lapply,data cleaning
+train,modeling
+function,setup
+predict,modeling
+filter,data cleaning
+select,data cleaning
+dim,data cleaning
+predict,modeling
+cbind,data cleaning
+function,setup
+filter,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+max,data cleaning
+max,data cleaning
+sum,data cleaning
+ungroup,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+filter,data cleaning
+select,data cleaning
+left_join,data cleaning
+list,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+max,data cleaning
+mutate,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+expand.grid,modeling
+unique,data cleaning
+paste0,setup
+ungroup,data cleaning
+select,data cleaning
+unnest_tokens,setup
+anti_join,data cleaning
+mutate,data cleaning
+paste0,setup
+count,data cleaning
+spread,data cleaning
+left_join,data cleaning
+predict,modeling
+data.frame,setup
+expand.grid,modeling
+unique,data cleaning
+paste0,setup
+ungroup,data cleaning
+select,data cleaning
+distinct,data cleaning
+unnest_tokens,setup
+anti_join,data cleaning
+mutate,data cleaning
+paste0,setup
+count,data cleaning
+select,data cleaning
+spread,data cleaning
+left_join,data cleaning
+select,data cleaning
+unnest_tokens,setup
+expand.grid,modeling
+unique,data cleaning
+paste0,setup
+mutate,data cleaning
+paste0,setup
+count,data cleaning
+spread,data cleaning
+left_join,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+left_join,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+left_join,data cleaning
+list,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+max,data cleaning
+filter,data cleaning
+max,data cleaning
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+ncol,modeling
+ungroup,data cleaning
+distinct,data cleaning
+mutate,data cleaning
+select,data cleaning
+data.frame,setup
+select,data cleaning
+data.frame,setup
+select,data cleaning
+data.frame,setup
+is.na,data cleaning
+return,data cleaning
+list,data cleaning
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+function,setup
+sapply,data cleaning
+as.data.frame,data cleaning
+t,data cleaning
+function,setup
+print,evaluation
+paste,data cleaning
+paste0,setup
+as.data.frame,data cleaning
+t,data cleaning
+cbind,data cleaning
+if,data cleaning
+ncol,modeling
+merge,data cleaning
+merge,data cleaning
+rbind,setup
+select,data cleaning
+select,data cleaning
+filter,data cleaning
+%in%,data cleaning
+mutate,data cleaning
+paste0,setup
+for,data cleaning
+strsplit,data cleaning
+strsplit,data cleaning
+strsplit,data cleaning
+try,data cleaning
+print,evaluation
+if,data cleaning
+rbind,setup
+mutate,data cleaning
+paste0,setup
+select,data cleaning
+inner_join,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+function,setup
+ifelse,data cleaning
+paste0,setup
+substr,data cleaning
+tolower,data cleaning
+substr,data cleaning
+tolower,data cleaning
+function,setup
+str_split,data cleaning
+lapply,data cleaning
+lapply,data cleaning
+unlist,data cleaning
+str_trim,data cleaning
+read.csv,setup
+select,data cleaning
+select,data cleaning
+mutate,data cleaning
+str_split,data cleaning
+unnest,data cleaning
+mutate,data cleaning
+distinct,data cleaning
+select,data cleaning
+mutate,data cleaning
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+ifelse,data cleaning
+%in%,data cleaning
+ifelse,data cleaning
+select,data cleaning
+distinct,data cleaning
+select,data cleaning
+distinct,data cleaning
+left_join,data cleaning
+mutate,data cleaning
+paste0,setup
+tolower,data cleaning
+select,data cleaning
+rename,data cleaning
+mutate,data cleaning
+head,exploratory
+head,exploratory
+head,exploratory
+unique,data cleaning
+vector,data cleaning
+length,data cleaning
+vector,data cleaning
+length,data cleaning
+for,data cleaning
+print,evaluation
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+arrange,data cleaning
+select,data cleaning
+toJSON,data cleaning
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+source,setup
+read.table,setup
+colnames,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+%in%,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+max,data cleaning
+ungroup,data cleaning
+seq,setup
+lapply,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+rename,data cleaning
+rename,data cleaning
+rm,setup
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+source,setup
+read.table,setup
+colnames,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+%in%,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+max,data cleaning
+ungroup,data cleaning
+seq,setup
+lapply,data cleaning
+colnames,data cleaning
+for,data cleaning
+length,data cleaning
+intersect,data cleaning
+colnames,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+seq,setup
+lapply,data cleaning
+colnames,data cleaning
+for,data cleaning
+length,data cleaning
+intersect,data cleaning
+colnames,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+set.seed,exploratory
+group_by,data cleaning
+summarise,data cleaning
+max,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sample,data cleaning
+ungroup,data cleaning
+select,data cleaning
+left_join,data cleaning
+rename,data cleaning
+rename,data cleaning
+intersect,data cleaning
+colnames,data cleaning
+colnames,data cleaning
+rm,setup
+ls,setup
+options,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+source,setup
+mutate,data cleaning
+read.table,setup
+colnames,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+paste0,setup
+arrange,data cleaning
+as.character,data cleaning
+filter,data cleaning
+select,data cleaning
+unnest_tokens,setup
+mutate,data cleaning
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+ungroup,data cleaning
+anti_join,data cleaning
+mutate,data cleaning
+filter,data cleaning
+str_detect,exploratory
+mutate,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+str_split,data cleaning
+sort,data cleaning
+unique,data cleaning
+unlist,data cleaning
+unique,data cleaning
+filter,data cleaning
+str_extract,data cleaning
+sort,data cleaning
+function,setup
+filter,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+str_detect,exploratory
+ifelse,data cleaning
+grepl,data cleaning
+ifelse,data cleaning
+max,data cleaning
+max,data cleaning
+sum,data cleaning
+ungroup,data cleaning
+filter,data cleaning
+select,data cleaning
+filter,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+grepl,data cleaning
+filter,data cleaning
+select,data cleaning
+left_join,data cleaning
+list,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+max,data cleaning
+mutate,data cleaning
+as.numeric,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+ungroup,data cleaning
+filter,data cleaning
+str_detect,exploratory
+tolower,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+max,data cleaning
+left_join,data cleaning
+list,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+paste0,setup
+arrange,data cleaning
+list,data cleaning
+for,data cleaning
+lapply,data cleaning
+do.call,setup
+colnames,data cleaning
+paste0,setup
+data.matrix,data cleaning
+data.frame,setup
+select,data cleaning
+distinct,data cleaning
+arrange,data cleaning
+data.matrix,data cleaning
+data.frame,setup
+select,data cleaning
+distinct,data cleaning
+arrange,data cleaning
+list,data cleaning
+for,data cleaning
+str_detect,exploratory
+lapply,data cleaning
+do.call,setup
+colnames,data cleaning
+paste0,setup
+data.matrix,data cleaning
+data.frame,setup
+group_by,data cleaning
+summarise,data cleaning
+paste0,setup
+arrange,data cleaning
+tolower,data cleaning
+colnames,data cleaning
+paste0,setup
+colnames,data cleaning
+data.matrix,data cleaning
+data.frame,setup
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+list,data cleaning
+ungroup,data cleaning
+left_join,data cleaning
+filter,data cleaning
+group_by,data cleaning
+summarise,data cleaning
+list,data cleaning
+ungroup,data cleaning
+left_join,data cleaning
+list,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+max,data cleaning
+select,data cleaning
+mutate,data cleaning
+distinct,data cleaning
+ungroup,data cleaning
+arrange,data cleaning
+left_join,data cleaning
+left_join,data cleaning
+left_join,data cleaning
+left_join,data cleaning
+select,data cleaning
+data.frame,setup
+select,data cleaning
+return,data cleaning
+list,data cleaning
+seq,setup
+lapply,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+set.seed,exploratory
+group_by,data cleaning
+summarise,data cleaning
+max,data cleaning
+group_by,data cleaning
+mutate,data cleaning
+sample,data cleaning
+ungroup,data cleaning
+select,data cleaning
+left_join,data cleaning
+seq,setup
+lapply,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+max,data cleaning
+seq,setup
+lapply,data cleaning
+for,data cleaning
+length,data cleaning
+rbind,setup
+for,data cleaning
+length,data cleaning
+rbind,setup
+rm,setup
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+load,setup
+list,data cleaning
+for,data cleaning
+which,exploratory
+ifelse,data cleaning
+factor,modeling
+data.matrix,data cleaning
+set.seed,exploratory
+expand.grid,modeling
+seq,setup
+sample,data cleaning
+nrow,data cleaning
+train,modeling
+function,setup
+capture.output,data cleaning
+train,modeling
+data.frame,setup
+list,data cleaning
+list,data cleaning
+names,setup
+library,setup
+set.seed,exploratory
+readRDS,data cleaning
+for,data cleaning
+unique,data cleaning
+print,evaluation
+filter,data cleaning
+predict,modeling
+data.frame,setup
+ifelse,data cleaning
+factor,modeling
+confusionMatrix,evaluation
+print,evaluation
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+load,setup
+function,setup
+as.matrix,setup
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+factor,modeling
+row.names,data cleaning
+row.names,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+table,evaluation
+rm,setup
+data.matrix,data cleaning
+as.numeric,data cleaning
+list,data cleaning
+return,data cleaning
+set.seed,exploratory
+predict,modeling
+write.csv,setup
+rm,setup
+ls,setup
+library,setup
+library,setup
+library,setup
+library,setup
+library,setup
+load,setup
+list,data cleaning
+for,data cleaning
+which,exploratory
+function,setup
+vector,data cleaning
+for,data cleaning
+as.matrix,setup
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+factor,modeling
+row.names,data cleaning
+row.names,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+table,evaluation
+rm,setup
+data.matrix,data cleaning
+as.numeric,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+factor,modeling
+data.matrix,data cleaning
+as.numeric,data cleaning
+list,data cleaning
+predict,modeling
+as.numeric,data cleaning
+print,evaluation
+as.numeric,data cleaning
+print,evaluation
+as.numeric,data cleaning
+print,evaluation
+list,data cleaning
+mean,exploratory
+list,data cleaning
+set.seed,exploratory
+function,setup
+as.matrix,setup
+select,data cleaning
+mutate,data cleaning
+ifelse,data cleaning
+factor,modeling
+row.names,data cleaning
+row.names,data cleaning
+as.data.frame,data cleaning
+cbind,data cleaning
+table,evaluation
+rm,setup
+data.matrix,data cleaning
+as.numeric,data cleaning
+list,data cleaning
+return,data cleaning
+set.seed,exploratory
+predict,modeling
+group_by,data cleaning
+summarise,data cleaning
+data.frame,setup
+for,data cleaning
+as.character,data cleaning
+unique,data cleaning
+print,evaluation
+which,exploratory
+which,exploratory
+predict,modeling
+data.frame,setup
+bind_rows,data cleaning
+rm,setup
+results,evaluation

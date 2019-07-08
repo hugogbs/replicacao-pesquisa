@@ -75,20 +75,142 @@ tse_classified_clean %>%
   write_csv("../data/tse_classified_clean.csv")
 ```
 
+```{r}
+# all_data <- camara_classified_clean %>%
+#   select(-args) %>%
+#   mutate(fonte = "Câmara") %>%
+#   union(tse_classified_clean %>%
+#           select(-args) %>%
+#           mutate(fonte = "TSE"))
+
+
+tse_ <- tse_classified_clean %>%
+          select(-args) %>%
+          mutate(fonte = "TSE")
+
+camara_ <- camara_classified_clean %>%
+  select(-args) %>%
+  mutate(fonte = "Câmara")
+
+
+all_data_ <- tse_ %>%
+    rbind(camara_)
+
+```
+
+
 
 ```{r}
 camara_classified_clean %>%
   group_by(classification) %>%
   summarise(n = n()) %>%
-  ggplot(aes(x= reorder(classification, n), y = n, fill=n)) +
+  ggplot(aes(x= reorder(classification, n), y = n)) +
+  geom_bar(stat = "identity", fill="#3C7A89") +
+  coord_flip() + 
+  theme_bw() +
+  labs(x = "Nº de observações", y = "Categoria") +
+  scale_fill_continuous(name = "")
+
+  ggsave("p1-camara.pdf")
+
+camara_classified %>%
+  group_by(classification) %>%
+  summarise(n = n()) %>%
+  ggplot(aes(x= reorder(classification, n), y = n)) +
   geom_bar(stat = "identity") +
   coord_flip() + 
-  theme_bw()
+  theme_bw() +
+  labs(x = "Nº de observações", y = "Categoria")
+
+
+camara_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n(), 
+            distinct = n_distinct(func)) %>%
+  ggplot(aes(x= reorder(classification, n), y = n)) +
+  geom_bar(stat = "identity", fill="#3C7A89", position="dodge") +
+  coord_flip() + 
+  theme_bw() +
+  labs(x = "Nº de observações", y = "Categoria") +
+  scale_fill_continuous(name = "")
+
+
+camara_agg <- camara_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n(), 
+            distinct = n_distinct(func),
+            prop = n()/nrow(camara_classified_clean)) %>%
+  mutate(fonte = "Câmara")
+
+
+tse_agg <- tse_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n(), 
+            distinct = n_distinct(func),
+            prop = n()/nrow(tse_classified_clean)) %>%
+  mutate(fonte = "TSE")
+
+all_data_agg <- camara_agg %>% rbind(tse_agg)
+
+all_data_agg %>%
+  ggplot(aes(x= reorder(classification, prop), y = prop, fill=fonte)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() + 
+  theme_bw() +
+  labs(y = "Proporção de observações", x = "Categoria") +
+  scale_fill_discrete(name = "")
+ggsave("props.pdf")
+
+all_data_ %>%
+  group_by(classification, fonte) %>%
+  summarise(n = n()) %>%
+  ggplot(aes(x= reorder(classification, n), y = n, fill=fonte)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() + 
+  theme_bw() +
+  labs(x = "Nº de observações", y = "Categoria") +
+  scale_fill_discrete(name = "")
+```
+```{r}
+# diferença das proporções
+data_diff <- camara_agg %>%
+  inner_join(tse_agg, by = "classification") %>%
+  mutate(diff = prop.x - prop.y)
+
+# camara = x
+# tse = y
+
+data_diff %>%
+  ggplot(aes(x=reorder(classification, diff))) +
+  geom_col(aes(y=diff, fill = !(diff > 0)), width = .7) +
+  coord_flip() + 
+  theme_bw() +
+  labs(
+        y = "Diferença entre as proporções",
+        x = "Categoria"
+    ) +
+    coord_flip() + 
+    scale_fill_discrete(name = "", labels = c("Câmara", "TSE"))
+
+ggsave("diff.pdf")
 ```
 
 
 ```{r}
+
 tse_classified_clean %>%
+  group_by(classification) %>%
+  summarise(n = n()) %>%
+  ggplot(aes(x= reorder(classification, n), y = n)) +
+  geom_bar(stat = "identity", fill="#561F37") +
+  coord_flip() + 
+  theme_bw() +
+  labs(x = "Nº de observações", y = "Categoria") +
+  scale_fill_continuous(name = "")
+
+ggsave("p1-tse.pdf")
+
+tse_classified %>%
   group_by(classification) %>%
   summarise(n = n()) %>%
   ggplot(aes(x= reorder(classification, n), y = n, fill=n)) +
@@ -124,32 +246,37 @@ camara_classified_clean %>%
 
 ```{r}
 camara_classified_clean %>%
+  filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
   group_by(classification, func) %>% 
   tally()  %>%
   top_n(5) %>%
-  ggplot(aes(reorder(func, n), n, fill = classification)) +
+  ggplot(aes(reorder(func, n), n, fill=classification)) +
   theme_bw() +
   geom_col(show.legend = FALSE) +
   facet_wrap(~classification, scales = "free_y") +
   scale_x_discrete(element_blank()) +
-  scale_y_continuous("Top 5 funções de cada tipo") +
+  scale_y_continuous("Câmara - Top 5 funções") +
   coord_flip()
+
+ggsave("top-camara.pdf")
 ```
 
 ```{r}
 tse_classified_clean %>%
+  filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
   group_by(classification, func) %>% 
   tally()  %>%
   top_n(5) %>%
-  ggplot(aes(reorder(func, n), n, fill = classification)) +
+  ggplot(aes(reorder(func, n), n, fill=classification)) +
   theme_bw() +
   geom_col(show.legend = FALSE) +
   facet_wrap(~classification, scales = "free_y") +
   scale_x_discrete(element_blank()) +
-  scale_y_continuous("Top 5 funções de cada tipo") +
+  scale_y_continuous("TSE - Top 5 funções de cada tipo") +
   coord_flip()
-```
 
+ggsave("top-tse.pdf")
+```
 
 
 

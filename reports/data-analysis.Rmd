@@ -56,9 +56,13 @@ camara_classified <- camara_unnested  %>%
   select(func, args) %>%
   inner_join(get_classifications("crowdsource", include_duplicates=FALSE))
 
-
-
 ```
+
+```{r}
+camara_classified %>%
+  group_by(cl)
+```
+
 
 ### Remove as _stopfuncs_
 ```{r}
@@ -235,6 +239,7 @@ tse_classified_clean %>%
 
 ```{r}
 camara_classified_clean %>%
+  filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
   count(classification, func) %>%
   with(
     wordcloud(func, n, min.freq = 10,
@@ -245,38 +250,82 @@ camara_classified_clean %>%
 ```
 
 ```{r}
-camara_classified_clean %>%
+p1<- camara_classified_clean %>%
   filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
   group_by(classification, func) %>% 
   tally()  %>%
   top_n(5) %>%
-  ggplot(aes(reorder(func, n), n, fill=classification)) +
+  ggplot(aes(reorder(func, n), n, color=classification, fill = classification)) +
   theme_bw() +
-  geom_col(show.legend = FALSE) +
-  facet_wrap(~classification, scales = "free_y") +
+  geom_point(show.legend = FALSE, size = 4) +
+  geom_bar(show.legend = FALSE, stat = "identity", width = 0.04) +
+  facet_wrap(~classification, scales = "free_y", ncol=1) +
   scale_x_discrete(element_blank()) +
-  scale_y_continuous("Câmara - Top 5 funções") +
-  coord_flip()
+  scale_y_continuous("") +
+  coord_flip() +
+  labs(title = "Câmara")
 
 ggsave("top-camara.pdf")
 ```
 
 ```{r}
-tse_classified_clean %>%
+
+p2 <- tse_classified_clean %>%
   filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
   group_by(classification, func) %>% 
   tally()  %>%
   top_n(5) %>%
-  ggplot(aes(reorder(func, n), n, fill=classification)) +
+  ggplot(aes(reorder(func, n), n, color=classification, fill = classification)) +
   theme_bw() +
-  geom_col(show.legend = FALSE) +
-  facet_wrap(~classification, scales = "free_y") +
+  geom_point(show.legend = FALSE, size = 4) +
+  geom_bar(show.legend = FALSE, stat = "identity", width = 0.04) +
+  facet_wrap(~classification, scales = "free_y", ncol = 1) +
   scale_x_discrete(element_blank()) +
-  scale_y_continuous("TSE - Top 5 funções de cada tipo") +
-  coord_flip()
+  scale_y_continuous("") +
+  coord_flip() +
+  labs(title = "TSE")
 
 ggsave("top-tse.pdf")
 ```
 
+```{r}
+g <- grid.arrange(p1, p2, ncol=2)
 
+ggsave("top-all.pdf", g, width = 6, height = 9)
+```
+
+```{r}
+all_data_ %>%
+  filter(classification %in% c("data cleaning", "exploratory", "modeling", "visualization")) %>%
+  group_by(fonte, classification, func) %>% 
+  tally()  %>%
+  top_n(5) %>%
+  ggplot(aes(reorder(func, n), n, color=fonte, fill = fonte)) +
+  theme_bw() +
+  geom_point(show.legend = FALSE, size = 3) +
+  geom_bar(show.legend = FALSE, stat = "identity", width = 0.04) +
+  facet_wrap(~classification+fonte, scales = "free_y", ncol = 2) +
+  scale_x_discrete(element_blank()) +
+  scale_y_continuous("") +
+  coord_flip()
+
+ggsave("top-all.pdf")
+```
+
+
+```{r}
+tse_classified_2 <- tse_unnested  %>%
+  select(func, args) %>%
+  inner_join(get_classifications("leeklab", include_duplicates=FALSE))
+
+camara_classified_2 <- camara_unnested  %>%
+  select(func, args) %>%
+  inner_join(get_classifications("leeklab", include_duplicates=FALSE))
+```
+
+```{r}
+tse_classified_2 %>%
+  group_by(classification) %>%
+  summarise(n= n()) %>% View()
+```
 
